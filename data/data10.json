@@ -1,0 +1,34 @@
+[
+	{
+	"division":"営業部",
+	"person":
+		[
+			{ "name": "山田太郎", "age": 21 },
+			{ "name": "佐藤一郎", "age": 56 },
+			{ "name": "鈴木大輔", "age": 32 },
+			{ "name": "斉藤伸介", "age": 30 },
+			{ "name": "前田洋一", "age": 26 }
+		]
+	},
+	{
+	"division":"製造部",
+	"person":
+		[
+			{ "name": "阿部泰三", "age": 44 },
+			{ "name": "藤沢修平", "age": 19 },
+			{ "name": "渡辺直人", "age": 26 },
+			{ "name": "田中洋介", "age": 29 }
+		]
+	},
+	{
+	"division":"技術部" ,
+	"person":
+		[
+			{ "name": "富士山太郎", "age": 40 },
+			{ "name": "john doe", "age": 39 },
+			{ "name": "Jane doe", "age": 24 },
+			{ "name": "藤原達也", "age": 30 }
+		
+		]
+	}
+]

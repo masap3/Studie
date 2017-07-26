@@ -1,0 +1,17 @@
+[
+	{"id":14, "name":"Rack1 Env Sensor", "doacheck":"true", "place":"Server Rack No1", "date":"2017/05/12", "time":"12:34:00", "temp":25.9, "objectTemp":25.2, "humidity":42.9, "barometer":1010, "lux":183, "note":"サーバラック１、環境センサー", "door_open":"false"},
+	{"id":15, "name":"Rack2 Env Sensor", "doacheck":"true", "place":"Server Rack No2", "date":"2017/05/12", "time":"12:34:00", "temp":25.5, "objectTemp":25.7, "humidity":42.7, "barometer":1011, "lux":182, "note":"サーバラック２、環境センサー", "door_open":"true"},
+	{"id":16, "name":"Rack3 Env Sensor", "doacheck":"true", "place":"Server Rack No3", "date":"2017/05/12", "time":"12:34:00", "temp":25.2, "objectTemp":26.2, "humidity":42.3, "barometer":1009, "lux":182, "note":"サーバラック３、環境センサー", "door_open":"false"},
+	{"id":17, "name":"Rack4 Env Sensor", "doacheck":"true", "place":"Server Rack No4", "date":"2017/05/12", "time":"12:34:00", "temp":25.7, "objectTemp":25.9, "humidity":42.7, "barometer":1011, "lux":184, "note":"サーバラック４、環境センサー", "door_open":"false"},
+	{"id":18, "name":"Rack5 Env Sensor", "doacheck":"true", "place":"Server Rack No5", "date":"2017/05/12", "time":"12:34:00", "temp":25.9, "objectTemp":26.5, "humidity":42.8, "barometer":1011, "lux":182, "note":"サーバラック５、環境センサー", "door_open":"true"},
+	{"id":19, "name":"Rack6 Env Sensor", "doacheck":"false", "place":"Server Rack No6", "date":"2017/05/11", "time":"12:34:00", "temp":25.1, "objectTemp":25.1, "humidity":42.2, "barometer":1009, "lux":183, "note":"サーバラック６、環境センサー", "door_open":"false"},
+	{"id":20, "name":"Rack7 Env Sensor", "doacheck":"true", "place":"Server Rack No7", "date":"2017/05/12", "time":"12:34:00", "temp":25.2, "objectTemp":26.1, "humidity":42.1, "barometer":1009, "lux":184, "note":"サーバラック７、環境センサー", "door_open":"true"},
+	{"id":21, "name":"Rack8 Env Sensor", "doacheck":"true", "place":"Server Rack No8", "date":"2017/05/12", "time":"12:34:00", "temp":25.9, "objectTemp":25.2, "humidity":42.9, "barometer":1010, "lux":183, "note":"サーバラック８、環境センサー", "door_open":"false"},
+	{"id":22, "name":"Rack9 Env Sensor", "doacheck":"true", "place":"Server Rack No9", "date":"2017/05/12", "time":"12:34:00", "temp":25.5, "objectTemp":25.7, "humidity":42.7, "barometer":1011, "lux":182, "note":"サーバラック９、環境センサー", "door_open":"true"},
+	{"id":23, "name":"Rack10 Env Sensor", "doacheck":"false", "place":"Server Rack No10", "date":"2017/05/11", "time":"12:34:00", "temp":25.2, "objectTemp":26.2, "humidity":42.3, "barometer":1009, "lux":182, "note":"サーバラック１０、環境センサー", "door_open":"false"},
+	{"id":24, "name":"Rack11 Env Sensor", "doacheck":"true", "place":"Server Rack No11", "date":"2017/05/12", "time":"12:34:00", "temp":25.7, "objectTemp":25.9, "humidity":42.7, "barometer":1011, "lux":184, "note":"サーバラック１１、環境センサー", "door_open":"true"},
+	{"id":25, "name":"Rack12 Env Sensor", "doacheck":"true", "place":"Server Rack No12", "date":"2017/05/12", "time":"12:34:00", "temp":25.9, "objectTemp":26.5, "humidity":42.8, "barometer":1011, "lux":182, "note":"サーバラック１２、環境センサー", "door_open":"false"},
+	{"id":26, "name":"StorageRack1 Env Sensor", "doacheck":"false", "place":"Storage Rack No1", "date":"2017/05/11", "time":"12:34:00", "temp":25.1, "objectTemp":25.1, "humidity":42.2, "barometer":1009, "lux":183, "note":"ストレージラック１、環境センサー", "door_open":"true"},
+	{"id":27, "name":"StorageRack2 Env Sensor", "doacheck":"true", "place":"Storage Rack No2", "date":"2017/05/12", "time":"12:34:00", "temp":25.2, "objectTemp":26.1, "humidity":42.1, "barometer":1009, "lux":184, "note":"ストレージラック２、環境センサー", "door_open":"true"}
+
+]

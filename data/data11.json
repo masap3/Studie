@@ -1,0 +1,79 @@
+[
+	{
+	"Device_Name": "センサー1",
+	"jikan": "2017/04/27-00:00:00",
+	"number":
+		[
+			{ "Ambient_Temp": 21 },
+			{ "Humidity": 56 },
+			{ "Lux": 650 },
+			{ "co2": 640 }
+		]
+	},
+	{
+	"Device_Name": "センサー2",
+	"jikan": "2017/04/27-00:01:00",
+	"number":
+		[
+			{ "Ambient_Temp": 26 },
+			{ "Humidity": 55 },
+			{ "Lux": 378 },
+			{ "co2": 789 }
+		]
+	},
+	{
+	"Device_Name": "センサー3",
+	"jikan": "2017/04/27-00:02:00",
+	"number":
+		[
+			{ "Ambient_Temp": 22 },
+			{ "Humidity": 58 },
+			{ "Lux": 1022 },
+			{ "co2": 450 }
+		]
+	},
+	{
+	"Device_Name": "センサー4",
+	"jikan": "2017/04/27-00:03:00",
+	"number":
+		[
+			{ "Ambient_Temp": 28 },
+			{ "Humidity": 60 },
+			{ "Lux": 659 },
+			{ "co2": 712 }
+		]
+	},
+	{
+	"Device_Name": "センサー5",
+	"jikan": "2017/04/27-00:04:00",
+	"number":
+		[
+			{ "Ambient_Temp": 24 },
+			{ "Humidity": 55 },
+			{ "Lux": 750 },
+			{ "co2": 655 }
+		]
+	},
+	{
+	"Device_Name": "センサー6",
+	"jikan": "2017/04/27-00:05:00",
+	"number":
+		[
+			{ "Ambient_Temp": 30 },
+			{ "Humidity": 68 },
+			{ "Lux": 384 },
+			{ "co2": 980 }
+		]
+	},
+	{
+	"Device_Name": "センサー7",
+	"jikan": "2017/04/27-00:06:00",
+	"number":
+		[
+			{ "Ambient_Temp": 33 },
+			{ "Humidity": 75 },
+			{ "Lux": 250 },
+			{ "co2": 1020 }
+		]
+	}
+]

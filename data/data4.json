@@ -1,0 +1,30 @@
+{
+	"item":
+	[
+		{
+		"itemCode":10,
+		"itemName":"ペンギン（Ａ）",
+		"itemPrice":1500
+		},
+		{
+		"itemCode":11,
+		"itemName":"ペンギン（Ｂ）",
+		"itemPrice":2000
+		},
+		{
+		"itemCode":12,
+		"itemName":"ペンギン（Ｃ）",
+		"itemPrice":3000
+		},
+		{
+		"itemCode":13,
+		"itemName":"ペンギン（Ｄ）",
+		"itemPrice":2500
+		},
+		{
+		"itemCode":14,
+		"itemName":"ペンギン（Ｅ）",
+		"itemPrice":2000
+		},
+	]
+}

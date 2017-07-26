@@ -1,0 +1,45 @@
+[
+		{
+			"name": "織田信長", "age": "20", "blood": "B"
+		},
+		{
+			"name": "山田長政", "age": "24", "blood": "A"
+		},
+		{
+			"name": "内田裕也", "age": "32", "blood": "AB"
+		},
+		{
+			"name": "徳川家康", "age": "30", "blood": "A"
+		},
+		{
+			"name": "豊臣秀吉", "age": "28", "blood": "O"
+		},
+		{
+			"name": "前田慶次", "age": "25", "blood": "B"
+		},
+		{
+			"name": "斉藤道三", "age": "33", "blood": "A"
+		},
+		{
+			"name": "浅井長政", "age": "22", "blood": "O"
+		},
+		{
+			"name": "坂本竜馬", "age": "28", "blood": "A"
+		},
+		{
+			"name": "伊達政宗", "age": "21", "blood": "A"
+		},
+		{
+			"name": "武田信玄", "age": "36", "blood": "O"
+		},
+		{
+			"name": "上杉謙信", "age": "29", "blood": "A"
+		},
+		{
+			"name": "真田幸村", "age": "25", "blood": "AB"
+		},
+		{
+			"name": "島津斉彬", "age": "33", "blood": "O"
+		}
+
+	]

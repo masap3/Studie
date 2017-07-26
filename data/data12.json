@@ -1,0 +1,74 @@
+[
+	{
+	"Device_Name": "センサー1",
+	"jikan": "2017/04/27-00:00:00",
+	"Ambient_Temp": 21,
+	"Object_Temp": 57,
+	"Humidity": 56,
+	"Lux": 650,
+	"co2": 640
+	},
+	{
+	"Device_Name": "センサー2",
+	"jikan": "2017/04/27-00:01:00",
+	"Ambient_Temp": 26,
+	"Object_Temp": 61,
+	"Humidity": 55,
+	"Lux": 378,
+	"co2": 789
+	},
+	{
+	"Device_Name": "センサー3",
+	"jikan": "2017/04/27-00:02:00",
+	"Ambient_Temp": 22,
+	"Object_Temp": 54,
+	"Humidity": 58,
+	"Lux": 1022,
+	"co2": 450
+	},
+	{
+	"Device_Name": "センサー4",
+	"jikan": "2017/04/27-00:03:00",
+	"Ambient_Temp": 28,
+	"Object_Temp": 48,
+	"Humidity": 60,
+	"Lux": 659,
+	"co2": 712
+	},
+	{
+	"Device_Name": "センサー5",
+	"jikan": "2017/04/27-00:04:00",
+	"Ambient_Temp": 24,
+	"Object_Temp": 52,
+	"Humidity": 55,
+	"Lux": 750,
+	"co2": 655
+	},
+	{
+	"Device_Name": "センサー6",
+	"jikan": "2017/04/27-00:05:00",
+	"Ambient_Temp": 30,
+	"Object_Temp": 48,
+	"Humidity": 68,
+	"Lux": 384,
+	"co2": 980
+	},
+	{
+	"Device_Name": "センサー7",
+	"jikan": "2017/04/27-00:06:00",
+	"Ambient_Temp": 33,
+	"Object_Temp": 37,
+	"Humidity": 75,
+	"Lux": 250,
+	"co2": 1020
+	},
+	{
+	"Device_Name": "センサー8",
+	"jikan": "2017/04/27-00:07:00",
+	"Ambient_Temp": 39,
+	"Object_Temp": 48,
+	"Humidity": 80,
+	"Lux": 375,
+	"co2": 1200
+	}
+]

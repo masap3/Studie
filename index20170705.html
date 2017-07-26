@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+ <html lang = "ja">
+ <head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="https://h2lnoavy-ncwpzaor.jp-east-1.cf-app.net/css/style2.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/2.11.0/tabulator.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/tauCharts/1.2.1/tauCharts.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js' charset='utf-8'></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/2.11.0/tabulator.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.23.0/jquery.fancytree-all.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tauCharts/1.2.1/tauCharts.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.13/moment-timezone-with-data.js"></script>
+	<script type="text/javascript" src="https://h2lnoavy-ncwpzaor.jp-east-1.cf-app.net/script/kousin.js"></script>
+	<script type="text/javascript" src="https://h2lnoavy-ncwpzaor.jp-east-1.cf-app.net/script/date-time-week.js"></script>
+
+</head>
+<body>
+
+
+<script>
+
+koshin();
+datetimeweek();
+
+
+function tasu()
+{
+	//テキストボックスの数値を変数に格納する
+
+	var num1=parseFloat(document.keisan.elements[0].value);
+	var num2=parseFloat(document.keisan.elements[1].value);
+
+	var num1 = num1 * 100;
+	var num2 = num2 * 100;
+		num1 = Math.round(num1) / 100;
+		num2 = Math.round(num2) / 100;
+		
+	//計算結果をテキストボックスに表示
+//	alert(num1 + num2);
+	document.keisan.elements[2].value = (num1 + num2);
+
+}
+
+function hikizan()
+{
+	//テキストボックスの数値を変数に格納する
+
+	var num3=parseFloat(document.keisan.elements[4].value);
+	var num4=parseFloat(document.keisan.elements[5].value);
+
+	var num3 = num3 * 100;
+	var num4 = num4 * 100;
+		num3 = Math.round(num3) / 100;
+		num4 = Math.round(num4) / 100;
+		
+	//計算結果をテキストボックスに表示
+//	alert(num3 - num4);
+	document.keisan.elements[6].value = (num3 - num4);
+}
+
+function kakeru()
+{
+	//テキストボックスの数値を変数に格納する
+
+	var num5=parseFloat(document.keisan.elements[8].value);
+	var num6=parseFloat(document.keisan.elements[9].value);
+
+	//計算結果をテキストボックスに表示
+//	alert(num5 * num6);
+	document.keisan.elements[10].value = (num5 * num6);
+}
+
+function warizan()
+{
+	//テキストボックスの数値を変数に格納する
+
+	var num7=parseFloat(document.keisan.elements[12].value);
+	var num8=parseFloat(document.keisan.elements[13].value);
+
+	//計算結果をテキストボックスに表示
+//	alert(num7 / num8);
+//	document.keisan.elements[14].value = (num7 / num8);
+	//計算結果を小数点３ケタで丸めて表示
+	document.keisan.elements[14].value = Math.round((num7 / num8) * 1000) / 1000;
+}
+
+function beki(){
+
+//基数と指数をそれぞれ数字に変換して変数に格納
+	var num9=parseFloat(document.keisan.elements[16].value);
+	var num10=parseFloat(document.keisan.elements[17].value);
+
+	//計算結果をテキストボックスに表示
+//	alert( Math.pow(num9,num10) );
+	document.keisan.elements[18].value = ( Math.pow(num9,num10) );
+}
+
+function root(){
+
+	//数字に変換して変数に格納
+	var num11=parseFloat(document.keisan.elements[20].value);
+
+	//計算結果をテキストボックスに表示
+//	alert( Math.sqrt(num11) );
+//	document.keisan.elements[21].value = ( Math.sqrt(num11) );
+	document.keisan.elements[21].value = Math.round ( Math.sqrt(num11) * 1000000) / 1000000;
+
+}
+
+//円柱の体積計算関数
+function enchu(){
+
+	//数字に変換して変数に格納
+	var num12=parseFloat(document.keisan.elements[23].value);
+	var num13=parseFloat(document.keisan.elements[24].value);
+
+	//計算結果をテキストボックスに表示
+//	alert( num12 * num12 * Math.PI / 4 * num13 );
+//	document.keisan.elements[25].value = ( num12 * num12 * Math.PI / 4 * num13 );
+	//小数点４桁まで丸めて表示
+	document.keisan.elements[25].value = Math.round(( num12 * num12 * Math.PI / 4 * num13 ) * 10000) / 10000;
+	
+}
+
+//円の面積計算関数
+function en(){
+
+	//数字に変換して変数に格納
+	var num14=parseFloat(document.keisan.elements[27].value);
+
+	//計算結果をテキストボックスに表示
+//	alert( num14 * num14 * Math.PI / 4 );
+//	document.keisan.elements[28].value = ( num14 * num14 * Math.PI / 4 );
+	document.keisan.elements[28].value = Math.round(( num14 * num14 * Math.PI / 4 ) * 10000) / 10000;
+
+	
+}
+
+//球体の表面積計算関数
+function kyu_s(){
+
+	//数字に変換して変数に格納
+	var num14=parseFloat(document.keisan.elements[27].value);
+
+	//計算結果をテキストボックスに表示
+//	alert( num14 * num14 * Math.PI );
+//	document.keisan.elements[29].value = ( num14 * num14 * Math.PI );
+	document.keisan.elements[29].value = Math.round(( num14 * num14 * Math.PI ) * 10000) / 10000;
+
+}
+
+//球体の体積計算関数
+function kyu_v(){
+
+	//数字に変換して変数に格納
+	var num14=parseFloat(document.keisan.elements[27].value);
+
+	//計算結果をテキストボックスに表示
+//	alert( num14 * num14 * num14 * Math.PI / 6 );
+//	document.keisan.elements[30].value = ( num14 * num14 * num14 * Math.PI / 6 );
+	document.keisan.elements[30].value = Math.round(( num14 * num14 * num14 * Math.PI / 6 ) * 10000) / 10000;
+
+}
+
+//円錐の体積計算関数
+function ensui_v(){
+
+	//数字に変換して変数に格納
+	var num15=parseFloat(document.keisan.elements[34].value);
+	var num16=parseFloat(document.keisan.elements[35].value);
+	
+	//計算結果をテキストボックスに表示
+//	alert( num15 * num15 * Math.PI / 4 * num16 /3 );
+//	document.keisan.elements[37].value = ( num15 * num15 * Math.PI / 4 * num16 /3 );
+	document.keisan.elements[37].value = Math.round(( num15 * num15 * Math.PI / 4 * num16 /3 ) * 10000) / 10000;
+	
+}
+
+//円錐の表面積計算関数
+function ensui_a(){
+
+	//数字に変換して変数に格納
+	var num15=parseFloat(document.keisan.elements[34].value);
+	var num16=parseFloat(document.keisan.elements[35].value);
+	var num17=parseFloat(document.keisan.elements[36].value);	
+	
+	//計算結果をテキストボックスに表示
+//	alert( ( num15 / 2 + num17) * num15 /2 * Math.PI );
+//	document.keisan.elements[38].value = ( ( num15 / 2 + num17) * num15 /2 * Math.PI );
+	document.keisan.elements[38].value = Math.round(( ( num15 / 2 + num17) * num15 /2 * Math.PI ) * 10000) / 10000;
+
+}
+
+
+
+</script>
+
+<p class="keisan">足し算</p><br>
+<form name="keisan">
+<input type="text" value="">＋
+<input type="text" value="">＝
+<input type="text" value=""><br>
+<input type="button" value="足し算" onclick="tasu()"><br><br>
+
+<p class="keisan">引き算</p><br>
+<input type="text" value="">－
+<input type="text" value="">＝
+<input type="text" value=""><br>
+<input type="button" value="引き算" onclick="hikizan()"><br><br>
+
+<p class="keisan">掛け算</p><br>
+<input type="text" value="">×
+<input type="text" value="">＝
+<input type="text" value=""><br>
+<input type="button" value="掛け算" onclick="kakeru()"><br><br>
+
+<p class="keisan">割り算</p><br>
+<input type="text" value="">÷
+<input type="text" value="">＝
+<input type="text" value=""><br>
+<input type="button" value="割り算" onclick="warizan()"><br><br>
+
+<p class="keisan">べき乗</p><br>
+基数：<input type="text" value=""><br>
+指数：<input type="text" value=""><br>
+結果：<input type="text" value=""><br>
+<input type="button" value="べき乗" onclick="beki()"><br><br>
+
+<p class="keisan">平方根</p><br>
+数値入力：<input type="text" value=""><br>
+計算結果：<input type="text" value=""><br>
+<input type="button" value="平方根" onclick="root()"><br><br>
+
+<p class="keisan">円柱の体積</p><br>
+直径　　：<input type="text" value=""><br>
+高さ　　：<input type="text" value=""><br>
+計算結果：<input type="text" value=""><br>
+<input type="button" value="円柱の体積計算" onclick="enchu()"><br><br>
+
+<p class="keisan">円関係の計算</p><br>
+直径　　　：<input type="text" value=""><br>
+円の面積　：<input type="text" value=""><br>
+球の表面積：<input type="text" value=""><br>
+球の体積　：<input type="text" value=""><br>
+<input type="button" value="円の面積計算" onclick="en()"><br>
+<input type="button" value="球の表面積計算" onclick="kyu_s()"><br>
+<input type="button" value="球の体積計算" onclick="kyu_v()"><br><br>
+
+<p class="keisan">円錐関係の計算</p><br>
+直径　　　　：<input type="text" value=""><br>
+高さ　　　　：<input type="text" value=""><br>
+母線の長さ　：<input type="text" value=""><br>
+円錐の体積　：<input type="text" value=""><br>
+円錐の表面積：<input type="text" value=""><br>
+<input type="button" value="円錐の体積計算" onclick="ensui_v()"><br>
+<input type="button" value="円錐の表面積計算" onclick="ensui_a()"><br><br>
+
+<input type="button" value="TXTリセット" onClick = "document.keisan.reset()">
+</form>
+
+
+</body>
+</html>

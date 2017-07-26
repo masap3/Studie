@@ -1,0 +1,18 @@
+p.class1::first-letter
+{
+	display: block;
+	margin: 5px 0 0 5px;
+	float: left;
+	color: #ff3366;
+	font-size: 4em;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+p.class3::first-letter
+{
+	display: block;
+	float: left;
+	color: #ff3300;
+	font-size: 36px;
+	font-family: Georgia, Times New Roman, serif;
+} 

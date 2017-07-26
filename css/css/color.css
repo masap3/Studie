@@ -1,0 +1,28 @@
+@charset "utf-8";
+h1{
+	color: #cc0033;
+	font-size: 24px;
+	font-family: 游ゴシック体;
+	font-weight: bold;
+}
+h2
+{
+	color: #00cc4d;
+	font-size: 28px;
+	font-family: ＭＳ ゴシック;
+	font-weight: bold;
+}
+h3
+{
+	color: #0014cc;
+	font-size: 20px;
+	font-family: ＭＳ 明朝;
+	font-weight: bold;
+}
+h4
+{
+	color: #cc5100;
+	font-size: 16px;
+	font-family: Meiryo;
+	font-weight: bold;
+}
